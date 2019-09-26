@@ -30,6 +30,7 @@ class Quiz extends Component {
               quizData.quiz_questions[this.state.quiz_position - 1]
             }
             showNextQuestionHandler={this.showNextQuestion.bind(this)}
+            resetClickHandler={this.handleResetClick.bind(this)}
           />
         )}
       </div>
